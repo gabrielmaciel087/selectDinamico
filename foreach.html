@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>For Each</title>
+        <script type="text/javascript" src="arqjs.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h2>Selecione o continente para visualizar os países existentes</h2><br><br>
+        <div onchange="gerar();">
+            <input type="radio" name="continentes" value="af"><font class="text">&nbsp;&nbsp;África</font>&nbsp;&nbsp;
+            <input type="radio" name="continentes" value="am"><font class="text">&nbsp;&nbsp;América</font>&nbsp;&nbsp;
+            <input type="radio" name="continentes" value="as"><font class="text">&nbsp;&nbsp;Ásia</font>&nbsp;&nbsp;
+            <input type="radio" name="continentes" value="eu"><font class="text">&nbsp;&nbsp;Europa</font>&nbsp;&nbsp;
+            <input type="radio" name="continentes" value="oc"><font class="text">&nbsp;&nbsp;Oceania</font>
+        </div><br>
+        <select name="paises" id="paises"></select>
+    </body>
+</html>
